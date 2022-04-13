@@ -39,7 +39,7 @@ const ConfirmarCuenta = () => {
 
   return (
     <>
-      <h1 className='text-yellow-500 font-black text-6xl capitalize flex flex-col'>Confirma tu Cuenta y comienza a crear tus proyectos con <span className='text-slate-700 pt-4'>APPMERN</span>
+      <h1 className='text-yellow-500 font-black text-6xl capitalize flex flex-col'>Confirma tu Cuenta de <span className='text-slate-700 pt-4'> APPMERN</span>
       </h1>    
 
       <div className='mt-20 md:mt-10 shadow-lg px-5 py-10 rounded-xl bg-white'>
