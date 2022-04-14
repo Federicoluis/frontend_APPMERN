@@ -1,7 +1,8 @@
 import {useEffect} from 'react'
 import {useParams} from 'react-router-dom'
-import useProyectos from "../hooks/useProyectos"
 import FormularioProyecto from "../components/FormularioProyecto"
+import useProyectos from "../hooks/useProyectos"
+
 
 const EditarProyecto = () => {
     const params = useParams();
@@ -14,14 +15,10 @@ const EditarProyecto = () => {
   const handleClick = () => {
       if(confirm('Deseas eliminar este proyecto')){
         eliminarProyecto(params.id)
-      } else {
-          console.log('no')
-      }
-
-  }
+      } 
+    }
 
   const {nombre} = proyecto
-
   
 
   return (
