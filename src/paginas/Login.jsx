@@ -46,7 +46,7 @@ const Login = () => {
     const { msg } = alerta
   return (
     <>
-        <h1 className='text-yellow-500 font-black text-6xl capitalize flex flex-col'>Administra tus proyectos con <span className='text-slate-700 pt-4'>APPMERN</span></h1>
+        <h1 className='text-yellow-500 font-black text-6xl capitalize flex flex-col'>Administra tus proyectos con <span className='md:text-slate-700 pt-4 text-yellow-500'>APPMERN</span></h1>
 
         {msg && <Alerta alerta={alerta} />}
         <form 
